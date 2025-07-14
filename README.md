@@ -2,7 +2,7 @@
   <img width="200" src="https://www.yesfee.com/assets/img/logo.png">
 </p>
 
-English | [简体中文](./readme.zh-CN.md) |
+English | [简体中文](./README.zh-CN.md) |
 
 ## Introduction
 SyncService is a backend Nodejs program that synchronizes data with the FinalTerm program on the server side, based on Yesfee's official self built synchronization server documentation.

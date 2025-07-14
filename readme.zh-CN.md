@@ -2,7 +2,7 @@
   <img width="200" src="https://www.yesfee.com/assets/img/logo.png">
 </p>
 
-简体中文 | [English](./readme.md) |
+简体中文 | [English](./README.md) |
 
 ## 简介
 SyncService是一个后端Nodejs程序，是依据Yesfee公司官方公布的[自建同步服务器文档]()，实现的与FinalTerm程序进行同步数据的服务器端程序。
