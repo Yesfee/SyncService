@@ -1,0 +1,4 @@
+.DS_Store
+/config/SysConfig.js
+/node_modules
+/logs
