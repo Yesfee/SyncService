@@ -1,11 +1,11 @@
 <p align="center">
-  <img width="200" src="https://www.yesfee.com/assets/img/logo.png">
+  <a href="https://yesfee.com"><img width="200" src="https://www.yesfee.com/assets/img/logo.png"></a>
 </p>
 
 简体中文 | [English](./README.md) |
 
 ## 简介
-SyncService是一个后端Nodejs程序，是依据Yesfee公司官方公布的[自建同步服务器文档]()，实现的与FinalTerm程序进行同步数据的服务器端程序。
+SyncService是一个后端Nodejs程序，是依据Yesfee公司官方公布的[自建同步服务器文档](https://docs.yesfee.com/docs/intro)，实现的与FinalTerm程序进行同步数据的服务器端程序。
 
 ## 前序准备
 - 要布署此程序，你需要准备至少一台服务器主机，在服务器主机上安装如下的软件：
@@ -53,6 +53,11 @@ npm run start
 - 系统启动后，在浏览器中输入http://{服务器域名或IP}:{端口},进行访问，如果能看到SyncService，表明服务器已正常运行。 为了使服务器长久运行，可以通过一些软件，如pm2, 将命令加载进来。关于pm2的使用，请自行搜索安装。
 
 ## 连接
+
+<p align="center">
+  <img width="500" src="https://oss.yuncache.com/base/img/sync.jpg">
+</p>
+
 自建同步服务器搭建好后，就可以在FinalTerm软件设备里面，在同步服务器设置中，通过配入你自已的同步服务器的信息，将软件中的同步数据：服务器管理，Shell管理与我的系统等的信息同步到你自建的服务器了。
 
 ## 注意

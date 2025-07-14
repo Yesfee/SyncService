@@ -1,11 +1,11 @@
 <p align="center">
-  <img width="200" src="https://www.yesfee.com/assets/img/logo.png">
+  <a href="https://yesfee.com"><img width="200" src="https://www.yesfee.com/assets/img/logo.png"></a>
 </p>
 
 English | [简体中文](./readme.zh-CN.md) |
 
 ## Introduction
-SyncService is a backend Nodejs program that synchronizes data with the FinalTerm program on the server side, based on Yesfee's official self built synchronization server documentation.
+SyncService is a backend Nodejs program that synchronizes data with the FinalTerm program on the server side, based on Yesfee's official [self built synchronization server documentation](https://docs.yesfee.com/docs/intro).
 
 ## Preface preparation
 - To deploy this program, you need to prepare at least one server host and install the following software on the server host:
@@ -56,6 +56,10 @@ npm run start
 - After the system is started, enter http://{server domain name or IP}: {port} in the browser to access it. If SyncService can be seen, it indicates that the server is running normally. To ensure the long-term operation of the server, commands can be loaded into it through software such as pm2. Regarding the use of PM2, please search and install it yourself.
 
 ## Connect
+<p align="center">
+  <img width="500" src="https://oss.yuncache.com/base/img/sync.jpg">
+</p>
+
 After setting up your own synchronization server, you can synchronize the synchronization data in the software, such as server management, shell management, and my system, to your own server by configuring your own synchronization server information in the synchronization server settings in the FinalTerm software device.
 
 ## Attention
